@@ -8,8 +8,8 @@ public class EnemyAI : MonoBehaviour {
 	private float sightDistance = 8f;
 	private float tagDistance = 2.2f;
 	private NavMeshAgent nav;								// Reference to the nav mesh agent.
-	private float chaseSpeed = 4.5f;					
-	private float patrolSpeed = 3f;
+	public float chaseSpeed = 4.5f;					
+	public float patrolSpeed = 3f;
 	public Transform[] patrolWayPoints;						// An array of transforms for the patrol route.
 	private int wayPointIndex;								// A counter for the way point array.
 	public Transform destination;
