@@ -8885,7 +8885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02c076d02cec4c44e903a203bbc49ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseSpeed: 3
+  chaseSpeed: 1
   patrolSpeed: 2.5
   patrolWayPoints:
   - {fileID: 902638672}
