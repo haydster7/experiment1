@@ -19,7 +19,7 @@ public class Proximity : MonoBehaviour {
 	}
 
 	void OnTriggerExit(Collider other){
-		if (other.tag == "Player") {
+		if (other.tag == "Player" && !isfound) {
 			playerWithin = false;
 			GameObject.Find ("Canvas").GetComponent<Canvas> ().enabled = false;
 		}
